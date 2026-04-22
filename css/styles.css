@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid green;*/
+    font-family: 'Oxanium';
+    
+}
+
+:root {
+    --bg-color: rgb(127, 255, 212);
+}
+
+body {
+    background: linear-gradient(145deg, rgb(255, 255, 255) 0%, rgb(127, 255, 212) 50%, rgb(255, 255, 255) 100%);
+}
+
+.header {
+    background-color: rgb(130, 180, 250);
+    border: 3px, solid, green;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-size: 30px;
+    font-family: 'Orbitron';
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav {
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+}
+
+.navigation {
+    background-color: var(--bg-color);
+    color: black;
+    text-align: center;
+    justify-items: center;
+    margin: 20px 25vw 20px 25vw;
+    border: 5px solid green;
+}
+
+.navigation ul {
+    display: flex;
+    padding: 10px 0 10px 0;
+    list-style-type: none;
+}
+
+.navigation li {
+    color: black;
+    padding: 0 20px 0 20px;
+    font-size: 40px;
+}
+
+.navigation a {
+    font-family: 'Orbitron';
+}
+
+
+
+main {
+    justify-items: center;
+}
+
+
+.content {
+    width: 60vw;
+    background-color: var(--bg-color);
+    margin: 0 20vw 0 20vw;
+}
+
+
+
+a, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: 'Orbitron';
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0 30px 0;
+    font-family: 'Orbitron';
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+    font-family: 'Orbitron';
+}
+
+h4 {
+    text-align: center;
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    padding: 10px 20px 10px 20px;
+}
+
+ul {
+    padding: 0 400px 20px 400px;
+    text-align: left;
+    font-size: 35px;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.break {
+    background-color: var(--bg-color);
+    height: 30px;
+    
+}
+
+.section {
+    background-color: whitesmoke;
+    border: 10px, solid, green;
+    box-shadow: 10px 10px 30px black;
+    padding: 5px 15px;
+    margin: 0 0 40px 0;
+    max-width: 60vw;
+}
+
+.body-link {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+
+table {
+    font-size: 30px;
+    line-height: 1.5;
+    padding: 50px 200px 50px 200px;
+}
+
+th{
+    background-color: rgb(40, 60, 200);
+    color: whitesmoke;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(130, 180, 250);
+}
+
+tr:nth-child(even){
+    background-color: rgb(180, 220, 250);
+}
+
+td {
+    padding: 0 10px;
+}
+
+
+
+.footer {
+    justify-items: center;
+    background-color: black;
+    padding-top: 20px;
+}
+
+.footer * {
+    font-size: 20px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    padding: 0 15px;
+    font-weight: bold;
+}
