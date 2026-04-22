@@ -7,9 +7,12 @@
     
 }
 
+/* VARIABLES */
 :root {
     --bg-color: rgb(127, 255, 212);
 }
+
+
 
 body {
     background: linear-gradient(145deg, rgb(255, 255, 255) 0%, rgb(127, 255, 212) 50%, rgb(255, 255, 255) 100%);
@@ -27,6 +30,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+
+/* NAVIGATION */
 nav {
     position: sticky;
     top: 10px;
@@ -59,6 +64,7 @@ nav {
 }
 
 
+/* MAIN CONTENT */
 
 main {
     justify-items: center;
@@ -169,6 +175,8 @@ td {
 
 
 
+
+/* FOOTER */
 .footer {
     justify-items: center;
     background-color: black;
