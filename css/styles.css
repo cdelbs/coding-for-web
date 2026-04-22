@@ -22,12 +22,11 @@ body {
     background-color: rgb(130, 180, 250);
     border: 1.5px, solid, green;
     text-align: center;
-    padding: 25px 0 25px 0;
+    padding: 25px 0;
     font-size: 15px;
     font-family: 'Orbitron';
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    
 }
 
 
@@ -36,6 +35,7 @@ nav {
     position: sticky;
     top: 10px;
     z-index: 100;
+    justify-items: center;
 }
 
 .navigation {
@@ -43,7 +43,8 @@ nav {
     color: black;
     text-align: center;
     justify-items: center;
-    margin: 10px 25vw 10px 25vw;
+    margin: 10px 0 10px 0;
+    max-width: 600px;
     border: 2.5px solid green;
 }
 
@@ -117,14 +118,9 @@ p {
     padding: 5px 10px 5px 10px;
 }
 
-ul {
-    padding: 0 200px 10px 200px;
-    text-align: left;
-    font-size: 17.5px;
-}
 
 li {
-    padding: 2.5px 0;
+    padding: 5px 0;
 }
 
 .break {
@@ -139,7 +135,16 @@ li {
     box-shadow: 5px 5px 15px black;
     padding: 2.5px 7.5px;
     margin: 0 0 20px 0;
-    max-width: 60vw;
+    width: 60vw;
+    justify-items: center;
+}
+
+.section ul {
+    padding: 0 0 10px 20px;
+    text-align: left;
+    font-size: 17.5px;
+    max-width: 70%;
+    justify-items: left;
 }
 
 .body-link {
@@ -153,7 +158,8 @@ li {
 table {
     font-size: 15px;
     line-height: 1.5;
-    padding: 25px 100px 25px 100px;
+    padding: 25px 0 25px 0;
+    max-width: 80%;
 }
 
 th{
@@ -202,3 +208,86 @@ td {
     padding: 0 7.5px;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 800px){
+    .navigation li {
+        font-size: 12px;
+    }
+
+    .header {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .section li {
+        font-size: 13px;
+    }
+
+    .body-link {
+        font-size: 12px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    .section {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .navigation li {
+        font-size: 10px;
+    }
+
+    .header {
+        font-size: 8px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 11px;
+    }
+
+    .section li {
+        font-size: 11px;
+    }
+
+    .body-link {
+        font-size: 11px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    .section {
+        width: 90%;
+    }
+}
+
+
+
+
+    
