@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /*border: 1px solid green;*/
+    /*border: 0.5px solid green;*/
     font-family: 'Oxanium';
     
 }
@@ -17,10 +17,10 @@ body {
 
 .header {
     background-color: rgb(130, 180, 250);
-    border: 3px, solid, green;
+    border: 1.5px, solid, green;
     text-align: center;
-    padding: 50px 0 50px 0;
-    font-size: 30px;
+    padding: 25px 0 25px 0;
+    font-size: 15px;
     font-family: 'Orbitron';
 
     display: grid;
@@ -29,7 +29,7 @@ body {
 
 nav {
     position: sticky;
-    top: 20px;
+    top: 10px;
     z-index: 100;
 }
 
@@ -38,20 +38,20 @@ nav {
     color: black;
     text-align: center;
     justify-items: center;
-    margin: 20px 25vw 20px 25vw;
-    border: 5px solid green;
+    margin: 10px 25vw 10px 25vw;
+    border: 2.5px solid green;
 }
 
 .navigation ul {
     display: flex;
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
     list-style-type: none;
 }
 
 .navigation li {
     color: black;
-    padding: 0 20px 0 20px;
-    font-size: 40px;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
 }
 
 .navigation a {
@@ -88,66 +88,66 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 50px;
-    padding: 30px 0 30px 0;
+    font-size: 25px;
+    padding: 15px 0 15px 0;
     font-family: 'Orbitron';
 }
 
 h3 {
     text-align: center;
-    font-size: 40px;
-    padding: 20px 0 20px 0;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
     font-family: 'Orbitron';
 }
 
 h4 {
     text-align: center;
-    font-size: 35px;
+    font-size: 17.5px;
 }
 
 p {
     text-align: center;
-    font-size: 35px;
-    padding: 10px 20px 10px 20px;
+    font-size: 17.5px;
+    padding: 5px 10px 5px 10px;
 }
 
 ul {
-    padding: 0 400px 20px 400px;
+    padding: 0 200px 10px 200px;
     text-align: left;
-    font-size: 35px;
+    font-size: 17.5px;
 }
 
 li {
-    padding: 5px 0;
+    padding: 2.5px 0;
 }
 
 .break {
     background-color: var(--bg-color);
-    height: 30px;
+    height: 15px;
     
 }
 
 .section {
     background-color: whitesmoke;
-    border: 10px, solid, green;
-    box-shadow: 10px 10px 30px black;
-    padding: 5px 15px;
-    margin: 0 0 40px 0;
+    border: 5px, solid, green;
+    box-shadow: 5px 5px 15px black;
+    padding: 2.5px 7.5px;
+    margin: 0 0 20px 0;
     max-width: 60vw;
 }
 
 .body-link {
     text-align: center;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 
 table {
-    font-size: 30px;
+    font-size: 15px;
     line-height: 1.5;
-    padding: 50px 200px 50px 200px;
+    padding: 25px 100px 25px 100px;
 }
 
 th{
@@ -164,7 +164,7 @@ tr:nth-child(even){
 }
 
 td {
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 
@@ -172,11 +172,11 @@ td {
 .footer {
     justify-items: center;
     background-color: black;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .footer * {
-    font-size: 20px;
+    font-size: 10px;
     color: white;
 }
 
@@ -191,6 +191,6 @@ td {
 }
 
 .footer li {
-    padding: 0 15px;
+    padding: 0 7.5px;
     font-weight: bold;
 }
