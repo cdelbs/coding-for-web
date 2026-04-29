@@ -188,7 +188,9 @@ td {
 
 /* FOOTER */
 .footer {
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
     padding-top: 10px;
 }
@@ -204,7 +206,7 @@ td {
 
 .footer ul {
     display: flex;
-    align-items: center;
+    
     list-style-type: none;
     padding: 0;
 }
