@@ -26,7 +26,19 @@ body {
     font-size: 15px;
     font-family: 'Orbitron';
 
-    
+    animation: dropHeader 0.8s ease-out forwards;
+}
+
+@keyframes dropHeader {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 
