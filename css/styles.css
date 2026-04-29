@@ -254,10 +254,6 @@ td {
 
 
 @media screen and (max-width: 500px){
-    body {
-        background: none;
-        background-color: red;
-    }
 
     .navigation li {
         font-size: 10px;
@@ -297,6 +293,7 @@ td {
 
     .section {
         width: 90%;
+        background-color: red;
     }
 }
 
