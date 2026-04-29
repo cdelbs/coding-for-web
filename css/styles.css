@@ -51,6 +51,7 @@ nav {
 
 .navigation ul {
     display: flex;
+    align-items: center;
     padding: 5px 0 5px 0;
     list-style-type: none;
 }
@@ -203,6 +204,7 @@ td {
 
 .footer ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
     padding: 0;
 }
