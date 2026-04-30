@@ -67,6 +67,7 @@ nav {
     display: flex;
     padding: 5px 0 5px 0;
     list-style-type: none;
+    margin: 0;
 }
 
 .navigation li {
@@ -140,6 +141,56 @@ li {
     padding: 5px 0;
 }
 
+
+/* ACCORDION STYLE CODE */
+
+.infrastructure-accordion {
+    width: 100%;
+    padding-bottom: 0;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.infrastructure-accordion .accordion-item {
+    background-color: whitesmoke;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.infrastructure-accordion .accordion-header {
+    padding: 0;
+}
+
+.infrastructure-accordion .accordion-button {
+    background-color: rgb(130, 180, 250);
+    color: black;
+    font-family: 'Orbitron';
+    font-size: 17.5px;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+.infrastructure-accordion .accordion-button:not(.collapsed) {
+    background-color: rgb(130, 180, 250);
+    color: black;
+    box-shadow: none;
+}
+
+.infrastructure-accordion .accordion-button:focus {
+    box-shadow: none;
+    border-color: green;
+}
+
+.infrastructure-accordion .accordion-body {
+    background-color: whitesmoke;
+}
+
+/* END OF ACCORDION CODE */
+
 .break {
     background-color: var(--bg-color);
     height: 15px;
@@ -194,11 +245,15 @@ table {
     line-height: 1.5;
     padding: 25px 0 25px 0;
     max-width: 80%;
+
+    border-collapse: separate;
+    border-spacing: 3px;
 }
 
 th{
     background-color: rgb(40, 60, 200);
     color: whitesmoke;
+    padding: 0 5px;
 }
 
 tr:nth-child(odd){
@@ -228,6 +283,7 @@ td {
 .footer * {
     font-size: 10px;
     color: white;
+    margin: 0;
 }
 
 .footer a {
