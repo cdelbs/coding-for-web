@@ -302,6 +302,11 @@ td {
     font-weight: bold;
 }
 
+.footer i {
+    font-size: 18px;
+    padding: 5px 10px 0 10px;
+}
+
 
 @media screen and (max-width: 800px){
     .navigation li {
